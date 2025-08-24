@@ -1,0 +1,76 @@
+.card {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+}
+
+.topSection {
+  padding: 1.5rem;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.mainInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.location {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.dateTime {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.weatherInfo {
+  text-align: right;
+}
+
+.temp {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.temp sup {
+  font-size: 1.5rem;
+}
+
+.tempRange {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.bottomSection {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  text-align: left;
+}
+
+.detailItem {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.detailItem strong {
+  opacity: 0.7;
+}
+
+.wind {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.wind svg {
+  font-size: 2.5rem;
+}
