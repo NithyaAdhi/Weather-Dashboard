@@ -2,9 +2,13 @@ import axios from "axios";
 
 const API_URL = "https://localhost:7208/api/Weather";
 
-const getWeatherData = async () => {
+const getWeatherData = async (token) => {
   try {
-    const response = await axios.get(API_URL);
+    const response = await axios.get(API_URL, {
+      headers: {
+        Authorization: `Bearer ${token}`, // Include the token in the Authorization header
+      },
+    });
 
     return response.data.map((city) => ({
       name: city.name,

@@ -1,11 +1,13 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WeatherApi.Services;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WeatherApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class WeatherController : ControllerBase
     {
         private readonly IWeatherService _weatherService;

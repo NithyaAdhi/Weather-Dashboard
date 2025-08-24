@@ -32,3 +32,11 @@ D:\github\Weather-Dashboard\WeatherApi\obj\Debug\net8.0\refint\WeatherApi.dll
 D:\github\Weather-Dashboard\WeatherApi\obj\Debug\net8.0\WeatherApi.pdb
 D:\github\Weather-Dashboard\WeatherApi\obj\Debug\net8.0\WeatherApi.genruntimeconfig.cache
 D:\github\Weather-Dashboard\WeatherApi\obj\Debug\net8.0\ref\WeatherApi.dll
+D:\github\Weather-Dashboard\WeatherApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\github\Weather-Dashboard\WeatherApi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\github\Weather-Dashboard\WeatherApi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\github\Weather-Dashboard\WeatherApi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\github\Weather-Dashboard\WeatherApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\github\Weather-Dashboard\WeatherApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\github\Weather-Dashboard\WeatherApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\github\Weather-Dashboard\WeatherApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

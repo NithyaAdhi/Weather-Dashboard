@@ -5,6 +5,6 @@
     "\\Models",
     "\\Services"
   ],
-  "SelectedNode": "\\appsettings.json",
+  "SelectedNode": "\\Services\\WeatherService.cs",
   "PreviewInSolutionExplorer": false
 }
